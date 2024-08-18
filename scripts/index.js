@@ -44,7 +44,7 @@ function startPage() {
     }, 1000);
     
     song.volume = 0;
-    song.playbackRate = 0.85;
+    song.playbackRate = 1;
     song.play();
 
     var fadeInInterval = setInterval(function () {
