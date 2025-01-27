@@ -100,11 +100,11 @@ function money() {
     );
 }
 
-function Burberry() {
+function burberry() {
     memberCall(
         "assets/mew_icon.PNG", 
         "<a href='https://discord.com/users/1274705405322334250' target='_blank' style='color: white;'>discord Profile",
-        "Burberry"
+        "burberry"
     );
 }
 
