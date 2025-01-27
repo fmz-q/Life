@@ -95,7 +95,7 @@ function memberCall(pfpSrc, textContent, user) {
 function money() {
     memberCall(
         "assets/gen_icon.png",
-        "<a href='https://solo.to/fmzq' target='_blank' style='color: white;'>solo.fmzq</a>",
+        "<a href='https://www.roblox.com/users/958031159/profile' target='_blank' style='color: white;'>Roblox",
         "money"
     );
 }
@@ -111,7 +111,7 @@ function Burberry() {
 function loubs() {
     memberCall(
         "assets/valexnt_icon.png",
-        "<a href='https://discord.com/users/1274705405322334250' target='_blank' style='color: white;'>discord Profile",
+        "<a href='Focusing on CYberSecurity and Exploit for the Environment!' target='_blank' style='color: white;'Focusing on CYberSecurity and Exploit for the Environment!",
         "loubs"
     );
 }
@@ -135,7 +135,7 @@ function memberCall(pfpSrc, textContent, user) {
         transitionActive = false;
     } else {
         current_page = "member";
-        document.title = "fmzq" + user;
+        document.title = "Change" + user;
         const displayText = document.querySelector(".display-text");
         const randomGif = document.getElementById("random-gif");
         const pfpImage = document.getElementById("pfp-image");
@@ -154,7 +154,7 @@ function memberCall(pfpSrc, textContent, user) {
 function updatePage(htmlContent, pageTitle) {
     if (transitionActive) return;
     transitionActive = true;
-    document.title = "@fmzq " + pageTitle;
+    document.title = "@Change " + pageTitle;
     const displayText = document.querySelector(".display-text");
 
     if (current_page !== "main") {
@@ -179,7 +179,7 @@ function updatePage(htmlContent, pageTitle) {
 
 function domains() {
     updatePage(
-        "<a href='https://fmz-q.github.io/fmzq/' target='_blank' style='color: white;'>https://fmz-q.github.io/fmzq</a>",
+        "<a href=
         "projects"
     );
 }
@@ -215,9 +215,7 @@ var gifs = [
     "ray.gif",
     "leg.gif",
     "shiny.gif",
-    "darkrai.gif",
     "mewtwo.gif",
-    "gengar.gif",
 
     ];
 
