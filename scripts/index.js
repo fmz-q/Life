@@ -69,13 +69,13 @@ function memberCall(pfpSrc, textContent, user) {
         const pfpImage = document.getElementById("pfp-image");
 
         displayText.innerHTML = textContent;
-        document.title = "@fmzq " + user;
+        document.title = "@Change " + user;
         pfpImage.src = pfpSrc;
 
         transitionActive = false;
     } else {
         current_page = "member";
-        document.title = "@fmzq " + user;
+        document.title = "@Change " + user;
         const displayText = document.querySelector(".display-text");
         const randomGif = document.getElementById("random-gif");
         const pfpImage = document.getElementById("pfp-image");
@@ -92,27 +92,27 @@ function memberCall(pfpSrc, textContent, user) {
     }
 }
 
-function lsd() {
+function money() {
     memberCall(
         "assets/gen_icon.png",
         "<a href='https://solo.to/fmzq' target='_blank' style='color: white;'>solo.fmzq</a>",
-        "lsd"
+        "money"
     );
 }
 
-function rainku() {
+function Burberry() {
     memberCall(
         "assets/mew_icon.PNG", 
-        "<a href='https://snapchat.com/@elliot_bajskorv' target='_blank' style='color: white;'>snapchat</a>, <a href='xeqlti' target='_blank' style='color: white;'>instagram</a>, <a href='https://t.me/f_mzq' target='_blank' style='color: white;'>telegram</a>",
-        "rainku"
+        "<a href='https://discord.com/users/1274705405322334250' target='_blank' style='color: white;'>discord Profile",
+        "Burberry"
     );
 }
 
-function valexnt() {
+function loubs() {
     memberCall(
         "assets/valexnt_icon.png",
-        "<a href='https://discord.com/users/1274705405322334250' target='_blank' style='color: white;'>discord</a>, <a href='https://t.me/f_mzq' target='_blank' style='color: white;'>telegram</a>",
-        "valexnt"
+        "<a href='https://discord.com/users/1274705405322334250' target='_blank' style='color: white;'>discord Profile",
+        "loubs"
     );
 }
 
